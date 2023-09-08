@@ -36,8 +36,8 @@ percentile_95 <- quantile(examscores, 0.95)
 
 
 # Install and use kable extra so that a table would appear in the view tab on the lower right
-#install.packages("kableExtra")
-library(kableExtra)
+#install.packages("rhandsontable")
+library(rhandsontable)
 
 # Create a data frame with the results
 results <- data.frame(
